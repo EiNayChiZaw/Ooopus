@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F7FA"
+    tools:context=".DragandDrop">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/cakestand" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E91E63"
+            android:layout_marginLeft="10dp"
+            android:textSize="17sp"
+            android:text="Choose Flavour" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:orientation="horizontal">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button6"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/btn_shape_round2"
+                        android:text="Vanilla"
+                        tools:layout_editor_absoluteX="141dp"
+                        tools:layout_editor_absoluteY="254dp" />
+
+                    <Button
+                        android:id="@+id/button5"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/btn_shape_round"
+                        android:text="Strawberry"
+                        tools:layout_editor_absoluteX="6dp"
+                        tools:layout_editor_absoluteY="254dp" />
+
+                    <Button
+                        android:id="@+id/button7"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/btn_shape_round1"
+                        android:text="Chocolate"
+                        tools:layout_editor_absoluteX="251dp"
+                        tools:layout_editor_absoluteY="190dp" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Cake Icing"
+            android:textColor="#E91E63"
+            android:textSize="17sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button26"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/btn_shape_round2"
+                        android:text="Ivory Butter Cream"
+                        tools:layout_editor_absoluteX="141dp"
+                        tools:layout_editor_absoluteY="254dp" />
+
+                    <Button
+                        android:id="@+id/button25"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/btn_shape_round"
+                        android:text="White"
+                        tools:layout_editor_absoluteX="6dp"
+                        tools:layout_editor_absoluteY="254dp" />
+
+                    <Button
+                        android:id="@+id/button27"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/btn_shape_round1"
+                        android:text="Caramel"
+                        tools:layout_editor_absoluteX="251dp"
+                        tools:layout_editor_absoluteY="190dp" />
+
+                    <Button
+                        android:id="@+id/button28"
+                        android:layout_width="70dp"
+                        android:layout_height="90dp"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/btn_shape_round1"
+                        android:text="Cream Cheese"
+                        tools:layout_editor_absoluteX="251dp"
+                        tools:layout_editor_absoluteY="190dp" />
+
+                    <Button
+                        android:id="@+id/button29"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/btn_shape_round1"
+                        android:text="Rich Butter Cream"
+                        tools:layout_editor_absoluteX="251dp"
+                        tools:layout_editor_absoluteY="190dp" />
+
+                    <Button
+                        android:id="@+id/button30"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/btn_shape_round1"
+                        android:text="Tinted Butter Cream"
+                        tools:layout_editor_absoluteX="251dp"
+                        tools:layout_editor_absoluteY="190dp" />
+
+                    <Button
+                        android:id="@+id/button31"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:background="@drawable/btn_shape_round1"
+                        android:text="Whipped Cream"
+                        tools:layout_editor_absoluteX="251dp"
+                        tools:layout_editor_absoluteY="190dp" />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Choose Design"
+            android:textColor="#E91E63"
+            android:textSize="17sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/imageButton2"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_centerInParent="true"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:background="@drawable/btn_shape_round2"
+                            android:scaleType="centerCrop"
+                            android:text="Rosette"
+                            app:srcCompat="@drawable/rose" />
+                    </LinearLayout>
+
+
+                    <ImageButton
+                        android:id="@+id/imageButton3"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/btn_shape_round2"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/flower" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton13"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/btn_shape_round2"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/flower" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton4"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/btn_shape_round2"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/cupcake" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton5"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/btn_shape_round2"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/fruit" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
